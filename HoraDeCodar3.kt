@@ -10,7 +10,7 @@ fun main() {
     println("7 - Média de 6 notas")
     println("8 - Contando e contando")
     println("9 - Contando até 110 (só que a partir de 101)")
-    println("10 - Entre 24 e 42")
+    println("10 - Números entre 24 e 42")
     println("11 - Multiplicando o quanto quiser")
     var opcao = readln().toInt()
     if (opcao == 1){
@@ -254,6 +254,8 @@ fun questao10() {
     var numeros = mutableListOf<Double>()
     var numerosfora = mutableListOf<Double>()
 
+
+    println("--- Números entre 24 e 42 ---")
     for (i in 1 .. 10) {
         println("Escreva o ${i}º número")
         var numero = readln().toDouble()
