@@ -1,5 +1,3 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 fun main() {
     println("--- Seja bem vindo ao Hora de Codar 2: A vingança do Coder! ---")
     println("Escolha qual dos programas você gostaria de executar: ")
